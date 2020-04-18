@@ -1,0 +1,13 @@
+.home-body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/home-bo1.png');
+    background-repeat:no-repeat;
+    background-size: auto 100%;
+    .home-buttom{
+        position: fixed;
+        width: 100%;
+        bottom: 15%;
+    }
+}

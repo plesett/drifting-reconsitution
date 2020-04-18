@@ -1,0 +1,45 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+
+
+$DialogueBac:  rgb(45, 132, 231);
+
+.DialogueText-box{
+    min-height: 34px;
+    padding: 2%;
+    .DialogueText-row{
+        display: flex;
+        justify-content: space-around;
+        .DialogueText-left{
+            position: absolute;
+            top: 21px;
+            left: -3%;
+            width:0;
+            height:0;
+            border-top:25px solid transparent;
+            border-bottom:25px solid transparent;
+            border-right:25px solid $DialogueBac;
+        }
+        .DialogueText-right{
+            flex-wrap: wrap;
+            color: #fff;
+            font-size: 30px;
+            height: 100%;
+            overflow: hidden;
+            line-height: 77px;
+            letter-spacing: 5px;
+            padding: 0 4%;
+            border-radius: 12px;
+            background-color: $DialogueBac;
+        }
+        .DialogueText-icon-rigth{
+            position: absolute;
+            top: 21px;
+            right: -3%;
+            width:0;
+            height:0;
+            border-top:25px solid transparent;
+            border-bottom:25px solid transparent;
+            border-left: 25px solid $DialogueBac;
+        }
+    }
+}

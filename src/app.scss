@@ -1,0 +1,10 @@
+@import "~taro-ui/dist/style/index.scss";
+
+
+.at-list__item--thumb .item-thumb{
+    margin-right: 24rpx;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    overflow: hidden;
+}
