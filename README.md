@@ -1,15 +1,5 @@
-#### 使用
+#### 重构
 
-
-**依赖**
-
-`cnpm install --save redux @tarojs/redux @tarojs/redux-h5 redux-thunk redux-logger`
-
-`cnpm install --save dva-core dva-loading`
-
-
-**启动**
-
-`npm install`
-
-`npm run dev:${ENV}`
++ 转为Class组件使用
++ 引入 GoEasy 即时通讯
++ 修改封装的请求
